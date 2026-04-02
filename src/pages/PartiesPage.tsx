@@ -200,3 +200,4 @@ export const PartiesPage: React.FC = () => {
     </div>
   );
 };
+export default PartiesPage;

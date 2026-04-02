@@ -222,3 +222,4 @@ export const AccommodationPage: React.FC = () => {
     </div>
   );
 };
+export default AccommodationPage;

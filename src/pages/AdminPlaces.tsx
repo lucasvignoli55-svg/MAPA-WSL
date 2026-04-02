@@ -522,3 +522,4 @@ export const AdminPlaces: React.FC = () => {
     </div>
   );
 };
+export default AdminPlaces;

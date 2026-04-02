@@ -149,3 +149,4 @@ export const TodayPage: React.FC = () => {
     </div>
   );
 };
+export default TodayPage;

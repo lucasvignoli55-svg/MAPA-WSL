@@ -184,3 +184,4 @@ export const AdminHeats: React.FC = () => {
     </div>
   );
 };
+export default AdminHeats;

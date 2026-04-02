@@ -177,3 +177,4 @@ export const WSLAgendaPage: React.FC = () => {
     </div>
   );
 };
+export default WSLAgendaPage;

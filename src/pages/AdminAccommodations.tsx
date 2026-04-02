@@ -293,3 +293,4 @@ export const AdminAccommodations: React.FC = () => {
     </div>
   );
 };
+export default AdminAccommodations;

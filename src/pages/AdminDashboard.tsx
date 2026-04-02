@@ -302,3 +302,4 @@ using (
     </div>
   );
 };
+export default AdminDashboard;
