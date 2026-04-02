@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Header, BottomNav } from './components/Navigation';
 import { Countdown, LiveBanner } from './components/HomeSpecial';
-import HomePage from './pages/HomePage';
+import HomeView from './pages/HomeView';
 import TodayPage from './pages/TodayPage';
 import AccommodationPage from './pages/AccommodationPage';
 import PartiesPage from './pages/PartiesPage';
@@ -76,12 +76,12 @@ export default function App() {
         
         <main className="flex-1">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<HomeView />} />
             <Route path="/hoje" element={<TodayPage />} />
             <Route path="/hospedagem" element={<AccommodationPage />} />
             <Route path="/festas" element={<PartiesPage />} />
             <Route path="/agenda" element={<WSLAgendaPage />} />
-            <Route path="/buscar" element={<HomePage />} />
+            <Route path="/buscar" element={<HomeView />} />
             <Route path="/login" element={<LoginPage />} />
             
             {/* Admin Routes */}

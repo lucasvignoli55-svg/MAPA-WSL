@@ -6,7 +6,7 @@ import { getCategoryEmoji, getCategoryColor, cn, isOpenNow, getHaversineDistance
 import { Search, X, Info, MessageCircle, Instagram, MapPin, Clock, Star } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-const HomePage: React.FC = () => {
+const HomeView: React.FC = () => {
   const [places, setPlaces] = useState<Place[]>([]);
   const [filteredPlaces, setFilteredPlaces] = useState<Place[]>([]);
   const [loading, setLoading] = useState(true);
@@ -539,4 +539,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default HomeView;
