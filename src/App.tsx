@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Header, BottomNav } from './components/Navigation';
 import { Countdown, LiveBanner } from './components/HomeSpecial';
-import { HomePage } from './pages/HomePage';
+import HomePage from './pages/HomePage';
 import { TodayPage } from './pages/TodayPage';
 import { AccommodationPage } from './pages/AccommodationPage';
 import { PartiesPage } from './pages/PartiesPage';
