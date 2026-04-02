@@ -1,0 +1,5 @@
+{
+  "name": "Mapa do Rolê WSL Saquarema 2026",
+  "description": "Guia digital oficial para turistas e visitantes durante o WSL Vivo Rio Pro 2026 em Saquarema.",
+  "requestFramePermissions": ["geolocation"]
+}
